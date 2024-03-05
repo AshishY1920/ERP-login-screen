@@ -173,11 +173,12 @@ html {
   transform: translateY(-50%);
 }
 
-.login-form > p {
+.login-form > a {
   font-family: "PoppinsMedium";
   font-size: 13px;
   color: rgba(28, 28, 28, 1);
   float: right;
+  text-decoration: none;
 }
 
 .cta-login {
@@ -195,6 +196,7 @@ html {
   font-family: "PoppinsSemiBold";
   font-size: 14px;
   letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
 ::placeholder {
